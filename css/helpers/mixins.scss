@@ -1,0 +1,14 @@
+%border-radius{
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+  }
+  
+ %image-replacement {
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  %shadow-default {
+    @extend  %shadow-default;
+  }
